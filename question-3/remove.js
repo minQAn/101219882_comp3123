@@ -25,3 +25,8 @@ if(fs.existsSync(log_dir)){
 } else {
     console.log(`The Directory does not exist.`);
 }
+
+
+
+// GitHub link
+// https://github.com/minQAn/101219882_comp3123_test1

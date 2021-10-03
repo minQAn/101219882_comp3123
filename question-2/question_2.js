@@ -21,3 +21,9 @@ function rejectedPromise(){
 
 resolvedPromise().then(resolveData => console.log(resolveData));
 rejectedPromise().catch(err => console.log(err));
+
+
+
+
+// GitHub link
+// https://github.com/minQAn/101219882_comp3123_test1
