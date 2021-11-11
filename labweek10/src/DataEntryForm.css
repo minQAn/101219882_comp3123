@@ -1,0 +1,77 @@
+:root{
+    --input-height: 30px;
+}
+
+
+.container{
+    width: 70% !important;  /* because of bootstrap conflict*/
+    text-align: center;
+    border:3px solid green;
+    margin:30px auto;
+    padding: 10px; 
+
+}
+
+.container h3{
+    padding: 10px 0;
+}
+
+/* input box */
+.container input{
+    height: var(--input-height);
+    width: 100%;    
+}
+
+.container label{
+    display:block;
+    padding: 10px 0;
+}
+
+.email_name_box{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.email_name_box>.email{
+    width: 50%;    
+    margin-right: 10px;
+}
+.email_name_box>.name{
+    width: 50%;
+}
+
+
+
+.city_province_postal{
+    display:flex;
+    justify-content: space-between;   
+}
+
+.city_province_postal>p{
+    width: 32%;
+}
+
+.province>select{
+    width: 100%;
+    height: var(--input-height);
+}
+
+
+.checkBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkBox>input{
+    width: 20px;
+    height: 14px;
+}
+.checkBox>label{
+    display: inline-block;
+}
+
+.btnSubmit{
+    padding: 5px 10px;
+    background-color: green;
+    border:1px solid green;
+}
