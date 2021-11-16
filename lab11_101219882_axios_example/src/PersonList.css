@@ -1,0 +1,43 @@
+.container{
+    margin: 20px auto !important;   
+
+}
+
+.user_id{
+    background-color: bisque;
+    padding: 10px 20px;
+    margin:0;
+}
+
+.profile_box{
+    display: flex;
+    justify-content: left;
+    background: blanchedalmond;
+    padding: 20px;
+    width: 100%;
+}
+
+.photo{
+    text-align: center;
+}
+
+.photo>img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile_table{
+    margin-left: 3rem;
+}
+
+.profile_table>tbody>tr>td:first-child{
+    text-align: right;    
+}
+
+.profile_table>tbody>tr>td{
+    padding: 0 10px;
+}
